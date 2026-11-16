@@ -1,0 +1,46 @@
+{
+  "name": "army-freebies",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "eslint",
+    "start": "next start",
+    "test": "vitest run",
+    "deploy": "sh scripts/deploy.sh"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1146.0",
+    "@aws-sdk/client-rekognition": "^3.1146.0",
+    "@aws-sdk/client-s3": "^3.1146.0",
+    "@aws-sdk/lib-dynamodb": "^3.1146.0",
+    "@aws-sdk/s3-presigned-post": "^3.1146.0",
+    "@aws-sdk/s3-request-presigner": "^3.1146.0",
+    "@clerk/localizations": "^4.21.2",
+    "@clerk/nextjs": "^7.9.10",
+    "country-flag-icons": "^1.6.20",
+    "lucide-react": "^1.51.0",
+    "nanoid": "^6.0.1",
+    "next": "16.4.6",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-qr-code": "^2.2.0",
+    "server-only": "^0.0.1",
+    "simple-icons": "^16.34.0",
+    "sst": "4.17.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^3.2.7"
+  },
+  "packageManager": "pnpm@10.17.0",
+  "license": "MIT"
+}
