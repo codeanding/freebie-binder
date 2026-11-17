@@ -17,6 +17,7 @@ const ERRORS: Record<PublishError, (t: Dict) => string> = {
   limit: (t) => t.error,
   image: (t) => t.imageError,
   moderation: (t) => t.moderationError,
+  imageText: (t) => t.imageTextError,
   text: (t) => t.textError,
   rate: (t) => t.rateError,
 };

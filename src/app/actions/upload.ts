@@ -21,7 +21,9 @@ export async function requestUpload() {
   return { id, url: form.url, fields: form.fields };
 }
 
-export type PublishError = "invalid" | "limit" | "image" | "moderation" | "text" | "rate";
+// "moderation" and "imageText" tell the uploader which check stopped the photo (not the exact rule),
+// so they know whether to try another photo or cover the text and retake it
+export type PublishError = "invalid" | "limit" | "image" | "moderation" | "imageText" | "text" | "rate";
 
 /** Step 2: moderate the uploaded photo and, if it passes, publish the freebie. */
 export async function publishFreebie(input: {
@@ -62,7 +64,7 @@ export async function publishFreebie(input: {
     return { error: "moderation" };
   }
   if (!imageTextOk) {
-    return { error: "text" };
+    return { error: "imageText" };
   }
 
   const imageKey = `freebies/${id}.jpg`;

@@ -22,6 +22,7 @@ export const zh: Dict = {
   rateError: "操作太快了，请稍后再试。",
   moderationError: "这张照片没有通过内容审核，请换一张。",
   textError: "为了安全，请不要填写电话号码、链接或聊天软件信息。",
+  imageTextError: "照片里有像电话号码、链接或聊天软件的文字，请遮住后重新拍摄。",
   imageError: "无法读取照片，请换一张。",
   report: "举报",
   reportConfirm: "要举报这个应援物为不当内容吗？多位 ARMY 举报后会被隐藏。",

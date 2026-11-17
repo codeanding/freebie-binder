@@ -20,6 +20,7 @@ export const es = {
   rateError: "Vas muy rápido. Espera un rato e intenta de nuevo.",
   moderationError: "La foto no pasó nuestro filtro de contenido. Prueba con otra.",
   textError: "Por seguridad, no incluyas teléfonos, links ni apps de mensajería.",
+  imageTextError: "La foto tiene texto que parece un teléfono, link o app de mensajería. Tápalo y vuelve a tomarla.",
   imageError: "No pudimos leer la foto. Prueba con otra.",
   report: "Reportar",
   reportConfirm: "¿Reportar este freebie como inapropiado? Si varias ARMY lo reportan, se oculta.",

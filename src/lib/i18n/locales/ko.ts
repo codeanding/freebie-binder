@@ -22,6 +22,7 @@ export const ko: Dict = {
   rateError: "너무 빨라요. 잠시 후 다시 시도해 주세요.",
   moderationError: "콘텐츠 필터를 통과하지 못한 사진이에요. 다른 사진을 올려 주세요.",
   textError: "안전을 위해 전화번호, 링크, 메신저 정보는 넣지 마세요.",
+  imageTextError: "사진에 전화번호, 링크, 메신저처럼 보이는 글자가 있어요. 가리고 다시 찍어 주세요.",
   imageError: "사진을 읽을 수 없어요. 다른 사진을 올려 주세요.",
   report: "신고",
   reportConfirm: "이 프리비를 부적절한 콘텐츠로 신고할까요? 여러 아미가 신고하면 숨겨져요.",

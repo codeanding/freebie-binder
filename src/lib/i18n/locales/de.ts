@@ -22,6 +22,7 @@ export const de: Dict = {
   rateError: "Du bist zu schnell. Warte kurz und versuch es nochmal.",
   moderationError: "Dieses Foto hat unseren Inhaltsfilter nicht bestanden. Versuch ein anderes.",
   textError: "Zu deiner Sicherheit: keine Telefonnummern, Links oder Messenger angeben.",
+  imageTextError: "Auf dem Foto steht Text, der wie eine Telefonnummer, ein Link oder ein Messenger aussieht. Deck ihn ab und mach das Foto neu.",
   imageError: "Wir konnten das Foto nicht lesen. Versuch ein anderes.",
   report: "Melden",
   reportConfirm: "Dieses Freebie als unangemessen melden? Nach mehreren Meldungen wird es ausgeblendet.",

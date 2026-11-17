@@ -22,6 +22,7 @@ export const pt: Dict = {
   rateError: "Você está indo rápido demais. Espere um pouco e tente de novo.",
   moderationError: "A foto não passou no nosso filtro de conteúdo. Tente outra.",
   textError: "Por segurança, não inclua telefones, links ou apps de mensagem.",
+  imageTextError: "A foto tem um texto que parece telefone, link ou app de mensagem. Cubra e tire a foto de novo.",
   imageError: "Não conseguimos ler a foto. Tente outra.",
   report: "Denunciar",
   reportConfirm: "Denunciar este freebie como inadequado? Se várias ARMY denunciarem, ele será ocultado.",

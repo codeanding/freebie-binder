@@ -22,6 +22,7 @@ export const fr: Dict = {
   rateError: "Tu vas trop vite. Attends un peu et réessaie.",
   moderationError: "Cette photo n'a pas passé notre filtre de contenu. Essaie-en une autre.",
   textError: "Pour ta sécurité, n'ajoute ni numéro de téléphone, ni lien, ni messagerie.",
+  imageTextError: "La photo contient un texte qui ressemble à un numéro, un lien ou une messagerie. Cache-le et reprends la photo.",
   imageError: "Impossible de lire la photo. Essaie-en une autre.",
   report: "Signaler",
   reportConfirm: "Signaler ce freebie comme inapproprié ? S'il est signalé plusieurs fois, il sera masqué.",

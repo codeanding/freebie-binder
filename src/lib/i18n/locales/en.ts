@@ -22,6 +22,7 @@ export const en: Dict = {
   rateError: "You're going too fast. Wait a bit and try again.",
   moderationError: "This photo didn't pass our content filter. Try another one.",
   textError: "For your safety, don't include phone numbers, links or messaging apps.",
+  imageTextError: "The photo has text that looks like a phone number, link or messaging app. Cover it and retake the photo.",
   imageError: "We couldn't read the photo. Try another one.",
   report: "Report",
   reportConfirm: "Report this freebie as inappropriate? If several ARMY report it, it gets hidden.",
